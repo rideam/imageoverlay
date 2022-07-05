@@ -7,4 +7,4 @@ conn = redis.from_url(redis_url)
 
 app = Flask(__name__)
 
-from app import
+from app import views
