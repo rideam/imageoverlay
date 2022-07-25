@@ -1,1 +1,1 @@
-web: sh codecapsules.sh
+web: gunicorn app:app
