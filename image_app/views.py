@@ -1,5 +1,5 @@
-from app import app, conn
-from app.utils import process_job
+from image_app import app, conn
+from image_app.utils import process_job
 import redis, time, os, base64
 from rq import Queue
 from flask import render_template, request, send_file, redirect, url_for
